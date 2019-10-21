@@ -1,0 +1,40 @@
+.dental-calendar{
+    .ant-radio-group.ant-radio-group-outline.ant-radio-group-default{
+        display: none;
+    }
+    .ant-fullcalendar-fullscreen .ant-fullcalendar-date{
+        margin: 0;
+    }
+    .events{
+        padding: 0 0 0 5px;
+    }
+}
+.action-area{
+    position: absolute;
+    top: 11px;
+    left: 20px;
+}
+.ant-drawer-title{
+    .ant-btn{
+        float: right;
+        margin-right: 20px;
+        &.ant-btn-primary{
+            float: none;
+            margin-right: 0;
+        }
+    }
+}
+@media only screen and (min-width: 500px)  {
+    .dental-calendar{
+        .ant-radio-group.ant-radio-group-outline.ant-radio-group-default{
+            display: none;
+        }
+        .ant-fullcalendar-fullscreen .ant-fullcalendar-date{
+            margin: 0;
+        }
+        .events{
+            
+            padding: 0 0 0 30px;
+        }
+    }
+}

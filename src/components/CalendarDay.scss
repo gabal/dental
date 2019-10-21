@@ -1,0 +1,36 @@
+$margin-left: 35px;
+
+.time-line{
+    border-top: 1px solid #eaeaea;
+    text-transform: uppercase;
+    margin-left: $margin-left;
+    height: 49px;
+    position: relative;
+    span{
+        font-size: 10px;
+        position: absolute;
+        top: -8px;
+        left: -$margin-left;
+    }
+}
+.calendar-day{
+    position: relative;
+    .appointment{
+        position: absolute;
+        background: #e8e8e8;
+        border: 1px solid #ccc;
+        font-size: 11px;
+        top: 0;
+        padding: 8px 12px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+}
+.calendar-appoinments-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: $margin-left+5;
+}
+
